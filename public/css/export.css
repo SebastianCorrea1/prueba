@@ -1,0 +1,85 @@
+body {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.timeline{
+  padding: 20px;
+}
+
+.records{
+  margin-bottom: 20px;
+}
+
+.records .title{
+  background-color: #5D6BA2;
+  color: #fff;
+  text-align: center;
+  margin: 10px 0px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+}
+
+.records h2{
+  color: #fff;
+}
+
+h3{
+  color: #8793A2;
+}
+
+span{
+  color: #8793A2; 
+}
+
+p{
+  color: #353535;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+table td, table th {
+  border: none;
+  padding: 8px;
+  vertical-align: top;
+  width: 50%;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.table-bordered {
+  border-collapse: collapse;
+  padding: 0;
+  page-break-after: initial;
+  width: 100%;
+}
+
+.table-bordered th, .table-bordered td {
+  border: 2px solid #5D6BA2;
+  /*border: 2px solid #fff;*/
+  border-collapse: collapse;
+  padding: 4px;
+  width: auto;
+}
+
+.table-bordered th {
+  text-align: center;
+}
+
+.table-bordered h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
